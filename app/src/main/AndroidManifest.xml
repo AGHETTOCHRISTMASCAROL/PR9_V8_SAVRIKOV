@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PR9_V8">
         <activity
+            android:name=".Screan_3"
+            android:exported="false" />
+        <activity
+            android:name=".Screan_2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

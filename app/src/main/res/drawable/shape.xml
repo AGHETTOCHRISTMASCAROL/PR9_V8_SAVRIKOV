@@ -5,7 +5,7 @@
     android:shape="rectangle"   >
 
     <solid
-        android:color="#E5E5E5" >
+        android:color="#B8B5B2" >
     </solid>
 
     <padding
@@ -17,12 +17,11 @@
 
     <stroke
         android:width="4dp"
-        android:color="#878787" >
-
+        android:color="#B8B5B2" >
     </stroke>
 
     <corners
-        android:radius="400dp"   >
+        android:radius="5dp"   >
     </corners>
 
 </shape>
