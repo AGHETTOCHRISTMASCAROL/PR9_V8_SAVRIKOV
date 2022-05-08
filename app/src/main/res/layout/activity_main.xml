@@ -8,44 +8,71 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="New aromat"
+            android:fontFamily="@font/red_rose"
+            android:textSize="12pt"
             android:gravity="center"
-            android:layout_marginStart="335dp"/>
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="Выбери свой аромат"
+        android:fontFamily="@font/red_rose_bold"
+        android:textColor="@color/black"
+        android:textSize="10pt"
         android:gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Выбери одну категорию"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/red_rose"
         android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="160dp"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:orientation="horizontal">
+        android:gravity="center">
 
         <ImageView
-            android:layout_width="205dp"
-            android:layout_height="200dp"
+            android:layout_width="185dp"
+            android:layout_height="180dp"
             android:src="@drawable/img_1"/>
 
-
         <ImageView
-            android:layout_width="205dp"
-            android:layout_height="200dp"
+            android:layout_width="185dp"
+            android:layout_height="180dp"
             android:src="@drawable/img_2"/>
 
     </LinearLayout>
@@ -53,34 +80,57 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <TextView
-            android:layout_width="205dp"
+            android:layout_width="185dp"
             android:layout_height="50dp"
             android:text="Женский"
+            android:fontFamily="@font/red_rose"
+            android:layout_gravity="center"
             android:gravity="center"/>
 
         <TextView
-            android:layout_width="205dp"
+            android:layout_width="185dp"
             android:layout_height="50dp"
             android:text="Мужской"
+            android:fontFamily="@font/red_rose"
+            android:layout_gravity="center"
             android:gravity="center"/>
     </LinearLayout>
 
     <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="160dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <ImageView
-            android:layout_width="205dp"
-            android:layout_height="200dp"
+            android:layout_width="185dp"
+            android:layout_height="180dp"
             android:src="@drawable/img_3"/>
 
         <ImageView
-            android:layout_width="205dp"
-            android:layout_height="200dp"
+            android:layout_width="185dp"
+            android:layout_height="180dp"
             android:src="@drawable/img_4"/>
 
     </LinearLayout>
@@ -88,33 +138,46 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <TextView
-            android:layout_width="205dp"
+            android:layout_width="185dp"
             android:layout_height="50dp"
             android:text="Унисекс"
+            android:fontFamily="@font/red_rose"
+            android:layout_gravity="center"
             android:gravity="center"/>
 
         <TextView
-            android:layout_width="205dp"
+            android:layout_width="185dp"
             android:layout_height="50dp"
             android:text="Пробники"
+            android:fontFamily="@font/red_rose"
+            android:layout_gravity="center"
             android:gravity="center"/>
     </LinearLayout>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="361dp"
+        android:layout_height="65dp"
         android:backgroundTint="#EACCA8"
         android:text="Показать результаты"
+        android:fontFamily="@font/red_rose"
+        android:textSize="7pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:textColor="@color/gray_black"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/red_rose"
         android:gravity="right"
         android:text="8-954-852-00-00"
-        android:textColor="@color/gray_black"/>
+        android:textColor="@color/gray_black"
+        android:textSize="10pt"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="210dp"/>
 
 </LinearLayout>
